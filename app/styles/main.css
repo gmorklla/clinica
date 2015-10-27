@@ -1,0 +1,411 @@
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+body {
+  padding: 0;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+  margin-bottom: 0px;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+  padding-bottom: 19px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+.jumbotron .btn {
+  font-size: 21px;
+  padding: 14px 24px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+.plecaSuperior {
+  background-color: #ae4e92;
+  color:#fff;
+  padding-bottom: 5px;
+  padding-top: 15px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+}
+
+.txt-informativo {
+  font-size: 1.2rem !important;
+  margin-top: 1rem;
+  margin: 0px;
+  margin-top: 8px;
+  margin-bottom: 5px;
+}
+
+.plecaSuperior span {
+  font-weight: 700;
+  font-size: 3.5rem;
+  padding:0;
+  line-height: 3rem;
+}
+
+.diagonal {
+  width:1px;
+  height:30px;
+  background-color: #fff;
+  transform:skew(-25deg,0deg);
+  -ms-transform:skew(-25deg,0deg);
+  -webkit-transform:skew(-25deg,0deg); 
+}
+
+.plecaInferior {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  background-color: #fff;
+}
+
+.logo {
+  max-width: 629px;
+  width:100%;
+}
+
+.no-padding-left {
+  padding-left: 0px;
+}
+.no-padding-right {
+  padding-right: 0px;
+}
+
+.left-morado {
+  width:100%;
+  height:66px;
+  background-color: #6d1b55;
+}
+
+.navbar-brand {
+  font-size: 12px;
+}
+
+.navbar-collapse ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.navbar-collapse li {
+  display: inline-block;
+  margin: 0 5px;
+  transition: all 0.3s;
+}
+.navbar-collapse a {
+  display: block;
+  color: #285064;
+  transition: all 0.3s;
+}
+.navbar-collapse a:hover {
+  color: #12242d;
+}
+.navbar-collapse span {
+  display: block;
+  width:127px;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-collapse {
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+.menu {
+  margin-bottom: 0;
+}
+
+.busqueda {
+  height:55px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,d0d3c8+100 */
+  background: #ffffff; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  #ffffff 0%, #d0d3c8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#ffffff), color-stop(100%,#d0d3c8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg,  #ffffff 0%,#d0d3c8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg,  #ffffff 0%,#d0d3c8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg,  #ffffff 0%,#d0d3c8 100%); /* IE10+ */
+  background: linear-gradient(135deg,  #ffffff 0%,#d0d3c8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d0d3c8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  overflow:hidden;
+}
+
+.busqueda-group {
+  margin-top: 10px;
+}
+
+.form-control {
+  border-radius: 15px;
+}
+
+.busca-icon {
+  position:relative;
+  top:-25px;
+  left:40%;
+}
+
+.busca {
+  border-style: outset;
+  border-width: 5px;
+  border-right-color: rgb(255,255,255);
+  border-bottom-color: rgb(255,255,255);
+  border-right-color: rgba(255,255,255,0.3);
+  border-bottom-color: rgba(255,255,255,0.3);
+  text-align: center;
+}
+
+.busca::-webkit-input-placeholder {
+   color: #dfdfdf;
+   text-align: center;
+}
+
+.busca:-moz-placeholder { /* Firefox 18- */
+   color: #dfdfdf;
+   text-align: center;  
+}
+
+.busca::-moz-placeholder {  /* Firefox 19+ */
+   color: #dfdfdf;
+   text-align: center;  
+}
+
+.busca:-ms-input-placeholder {  
+   color: #dfdfdf;
+   text-align: center;  
+}
+
+.haz-cita-busca {
+  margin-top: 17px;
+  margin-bottom: 0;
+}
+
+.main-container {
+  max-width: 100% !important;
+  width:100%;
+  margin:0;
+  padding:0;
+}
+
+.slider {
+  padding:0 !important;
+  margin-bottom: 0;
+  width:100%;
+}
+
+.item {
+  overflow:hidden;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  max-width: none;
+  margin:0 auto;
+}
+
+.carousel-caption h3 {
+  font-size: 44px;
+  font-style: italic;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    text-indent: 0;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(162, 4, 123, 0.5);
+    border: 1px solid #a2047b;
+    transform: skewX(-25deg);
+    border-radius: 0;
+    color:#fff;
+}
+
+.carousel-indicators li p {
+  margin-top: 8px;
+}
+
+.carousel-indicators .active {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    background-color: #a2047b;
+}
+
+.carousel-indicators {
+    top: 0;
+    left:25%;
+}
+
+.ubicacion {
+  max-width: 100%;
+  padding: 0 !important;
+  margin-bottom: 0;
+  border-radius: 0 !important;
+}
+
+.ubica-row {
+  margin-right: 0 !important;
+}
+
+.ubicacion-pleca {
+  background-color: #420036;
+  height:35px;
+}
+
+.ubicacion-pleca  a {
+  color:#fff;
+}
+
+.ubicacion-pleca  a:hover {
+  color:#cc92c1;
+}
+
+.ubicacion-pleca  p {
+  margin-top: 7px;
+  font-size: 1.5rem;
+}
+
+.ubica-icon img {
+  position:relative;
+  top:-35px;
+  z-index: 999;
+}
+
+.ubica-btn {
+  margin-top: 2px;
+}
+
+      #map {
+        height: 400px;
+      }
+      .controls {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #pac-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 300px;
+      }
+
+      #pac-input:focus {
+        border-color: #4d90fe;
+      }
+
+      .pac-container {
+        font-family: Roboto;
+      }
+
+      #type-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #type-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      }
+
+.footer {
+  background-color: #6d1955;
+  color:#fff;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 992px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  .navbar-collapse li {
+    margin: 0;
+    transform: skewX(-25deg);
+  }
+  .navbar-collapse a {
+    padding: 10px 20px;
+    color: #fff;
+  }
+  .navbar-collapse a:hover {
+    color: #fff;
+  }
+  .navbar-collapse span {
+    transform: skewX(25deg);
+  }
+  .menu {
+    background-image: url('../images/menuBack.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
